@@ -1,5 +1,5 @@
-@import "utils/_variables.scss";
-@import "base/_common.scss";
+@import "utils/_variables";
+@import "base/_common";
 @import "components/_header";
 @import "components/_hero-section";
 @import "components/_about-us";
@@ -11,4 +11,4 @@
 @import "components/_modal-window";
 @import "components/_hero-section-portfolio";
 @import "components/_portfolio-body";
-@import "base/modern-normalize";
+@import "base/_modern-normalize";
