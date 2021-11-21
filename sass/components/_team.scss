@@ -30,17 +30,16 @@
     transition-property: background, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        fill: var(--color-text);
+        background-color: var(--color-link);
+    }
 }
 
 .social__item-links {
     width: 20px;
     height: 20px;
-}
-
-.social__item-block:hover,
-.social__item-block:focus {
-    fill: var(--color-text);
-    background-color: var(--color-link);
 }
 
 .team-pfoto {

@@ -11,6 +11,10 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: var(--color-link);
+    }
 }
 
 .studio-socials {
@@ -21,11 +25,6 @@
     width: 20px;
     height: 20px;
     fill: var(--color-text);
-}
-
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--color-link);
 }
 
 .studio-socials__title {
@@ -70,11 +69,10 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contacts__link:focus,
-.contacts__link:hover {
-    color: var(--color-link);
+    &:focus,
+    &:hover {
+        color: var(--color-link);
+    }
 }
 
 .footer-address {
