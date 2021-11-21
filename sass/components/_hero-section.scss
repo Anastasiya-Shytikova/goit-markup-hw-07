@@ -46,11 +46,10 @@
     text-align: center;
     min-width: 200px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero__button:hover,
-.hero__button:focus {
-    cursor: pointer;
-    color: var(--color-text);
-    background-color: var(--color-link);
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        color: var(--color-text);
+        background-color: var(--color-link);
+    }
 }
