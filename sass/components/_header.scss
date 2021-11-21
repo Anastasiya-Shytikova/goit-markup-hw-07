@@ -80,7 +80,7 @@
     }
 }
 
-.point-nav.nav__point-active {
+.nav__point-active {
     color: var(--color-link);
 }
 
@@ -97,6 +97,10 @@
     background-color: var(--color-link);
     border-radius: 2px;
     margin-bottom: -1px;
+}
+
+.nav__point-active {
+    color: var(--color-link);
 }
 
 .link-icon {
